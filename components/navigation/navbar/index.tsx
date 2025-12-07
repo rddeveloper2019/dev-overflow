@@ -1,6 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
-import React, { FC } from "react";
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { FC } from 'react';
+import Theme from './Theme';
 
 const Navbar: FC = () => {
   return (
@@ -19,7 +20,9 @@ const Navbar: FC = () => {
       </Link>
 
       <p>Global Search</p>
-      <div className="flex-between gap-5">Theme</div>
+      <div className="flex-between gap-5">
+        <Theme />
+      </div>
     </nav>
   );
 };
