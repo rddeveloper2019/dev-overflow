@@ -1,9 +1,3 @@
-const HomePage = () => {
-  return (
-    <div>
-      <h1 className="text-violet-700">Hello</h1>
-    </div>
-  );
-};
+const Home = () => <h1 className="h1-bold">Welcome to the world of Next.js</h1>;
 
-export default HomePage;
+export default Home;
