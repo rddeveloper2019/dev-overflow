@@ -11,14 +11,14 @@ const Home = async () => {
       <h1 className="h1-bold font-space-grotesk">
         Welcome to the world of Next.js
       </h1>
-      <form
+      {/* <form
         action={async () => {
           'use server';
           await signOut({ redirectTo: ROUTES.SIGN_IN });
         }}
       >
         <Button type="submit">Log out</Button>
-      </form>
+      </form> */}
     </div>
   );
 };

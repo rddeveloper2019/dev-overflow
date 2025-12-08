@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { FC } from 'react';
 import Theme from './Theme';
+import { MobileNavbar } from './MobileNavbar';
 
 const Navbar: FC = () => {
   return (
@@ -23,6 +24,7 @@ const Navbar: FC = () => {
       <div className="flex-between gap-5">
         <Theme />
       </div>
+      <MobileNavbar />
     </nav>
   );
 };
